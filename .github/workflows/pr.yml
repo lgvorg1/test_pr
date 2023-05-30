@@ -31,3 +31,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo [${{ secrets.MY_SECRET }}] Hello, world!
+        
+      # Runs a single command using the runners shell
+      - name: Echo from fork (internal)
+        run: echo 'Echo from fork (internal)'
