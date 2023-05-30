@@ -33,5 +33,5 @@ jobs:
         run: echo [${{ secrets.MY_SECRET }}] Hello, world!
       
       # Runs a single command using the runners shell
-      - name: Echo from fork (external read)
-        run: echo 'Echo from fork (external read)'
+      - name: Echo 2 from fork (external read)
+        run: echo 'Echo 2 from fork (external read)'
