@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI PR
+name: CI PR from fork (internal)
 
 # Controls when the workflow will run
 on:
@@ -33,5 +33,5 @@ jobs:
         run: echo [${{ secrets.MY_SECRET }}] Hello, world!
         
       # Runs a single command using the runners shell
-      - name: Echo from fork (internal)
-        run: echo 'Echo from fork (internal)'
+      - name: Echo 2 from fork (internal)
+        run: echo 'Echo 2 from fork (internal)'
